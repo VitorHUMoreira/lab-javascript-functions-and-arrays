@@ -46,9 +46,7 @@ function sumNumbers(array) {
 
   let sum = 0;
   array.forEach((element) => {
-    if (element !== 0) {
-      sum += element;
-    }
+    sum += element;
   });
   return sum;
 }
