@@ -103,10 +103,6 @@ function averageWordLength(array) {
     return null;
   }
 
-  if (array.length === 1) {
-    return array[0].length;
-  }
-
   let sum = 0;
   array.forEach((element) => {
     sum += element.length;
