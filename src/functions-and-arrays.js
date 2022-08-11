@@ -81,15 +81,7 @@ function averageNumbers(array) {
     return null;
   }
 
-  if (array.length === 1) {
-    return array[0];
-  }
-
-  let sum = 0;
-  array.forEach((element) => {
-    sum += element;
-  });
-  return sum / array.length;
+  return sumNumbers(array) / array.length;
 }
 
 // Level 2: Array of strings
