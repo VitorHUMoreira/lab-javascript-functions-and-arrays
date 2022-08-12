@@ -147,7 +147,7 @@ function uniquifyArray(array) {
     return null;
   }
 
-  let aux = [array[0]];
+  let aux = [];
   array.forEach((element) => {
     if (!aux.includes(element)) {
       aux.push(element);
